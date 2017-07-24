@@ -1,0 +1,9 @@
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\bin\Debug\netcoreapp1.0\TestApi.deps.json
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\bin\Debug\netcoreapp1.0\TestApi.runtimeconfig.json
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\bin\Debug\netcoreapp1.0\TestApi.runtimeconfig.dev.json
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\bin\Debug\netcoreapp1.0\TestApi.dll
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\bin\Debug\netcoreapp1.0\TestApi.pdb
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\obj\Debug\netcoreapp1.0\TestApi.csprojResolveAssemblyReference.cache
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\obj\Debug\netcoreapp1.0\TestApi.AssemblyInfo.cs
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\obj\Debug\netcoreapp1.0\TestApi.dll
+C:\Users\ahuja\Desktop\ComputingProject\TestApi\src\TestApi\obj\Debug\netcoreapp1.0\TestApi.pdb

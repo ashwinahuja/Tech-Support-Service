@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Welcome: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView1"
+        android:textAlignment="center" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/welcomeHelperName" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <Button
+        android:text="Set Timetable"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:id="@+id/welcomeHelperSetTimetable"/>
+    <Button
+        android:text="List of Appoinments"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:id="@+id/welcomeHelperListOfAppointments" />
+</LinearLayout>

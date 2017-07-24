@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AshwinAhuja.TechSupport" android:installLocation="auto" android:versionCode="7" android:versionName="7.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <application android:label="Tech Support" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:icon="@drawable/icon" android:label="Tech Support" android:name="md53d5492b4aafe1a7063c6eb81a3e0ac86.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="AppointmentsActivity" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.AppointmentsActivity" />
+    <activity android:label="bookAppointment" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.bookAppointment" />
+    <activity android:label="bookAppointmentDays" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.bookAppointmentDays" />
+    <activity android:label="bookAppointmentDetailsConfirm" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.bookAppointmentDetailsConfirm" />
+    <activity android:label="bookAppointmentTimes" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.bookAppointmentTimes" />
+    <activity android:label="bookNewAppointment" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.bookNewAppointment" />
+    <activity android:label="helperDetails" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.helperDetails" />
+    <activity android:label="listOfAppointments" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.listOfAppointments" />
+    <activity android:label="RatingsActivity" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.RatingsActivity" />
+    <activity android:label="reviewActivity" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.reviewActivity" />
+    <activity android:label="SeeAllReviewOfHelper" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.SeeAllReviewOfHelper" />
+    <activity android:label="setTimetableDays" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.setTimetableDays" />
+    <activity android:label="setTimetableTimes" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.setTimetableTimes" />
+    <activity android:label="setTimetableWeeks" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.setTimetableWeeks" />
+    <activity android:label="welcomeElderly" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.welcomeElderly" />
+    <activity android:label="welcomeHelper" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.welcomeHelper" />
+    <activity android:label="LoginActivity" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.LoginActivity" />
+    <activity android:label="RegisterActivity" android:name="md588a32eb3ff3e7add8f5d00709d7e4950.RegisterActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AshwinAhuja.TechSupport.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <application android:name="TechSupport" />
+  <application android:label="TechSupport" android:icon="@drawable/icon"></application>
+</manifest>
