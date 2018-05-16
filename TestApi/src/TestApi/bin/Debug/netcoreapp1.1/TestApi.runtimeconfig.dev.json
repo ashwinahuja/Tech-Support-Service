@@ -1,7 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\ahuja\\.nuget\\packages"
+      "/Users/ashwin/.dotnet/store/|arch|/|tfm|",
+      "/Users/ashwin/.nuget/packages"
     ]
   }
 }
